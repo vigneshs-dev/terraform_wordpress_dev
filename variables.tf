@@ -23,7 +23,7 @@ variable "aws_region" {
 variable "app_name" {
   type        = string
   description = "application name"
-  default     = "wordpressApp"
+  default     = "wordpressapp"
 }
 
 variable "az_count" {
