@@ -141,3 +141,20 @@ resource "aws_security_group" "wordpress_ec2_sg" {
     Name = "${local.name_prefix}-wordpress-ec2-sg"
   }
 }
+
+#Wordpress account
+variable "wp_username" {
+  type        = string
+  description = "wordpress username"
+  sensitive   = true
+}
+variable "wp_password" {
+  type        = string
+  description = "wordpress password"
+  sensitive   = true
+}
+variable "wp_email" {
+  type        = string
+  description = "wordpress email"
+  sensitive   = true
+}

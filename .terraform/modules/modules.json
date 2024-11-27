@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"network","Source":"registry.terraform.io/terraform-aws-modules/vpc/aws","Version":"4.0.1","Dir":".terraform/modules/network"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"network","Source":"registry.terraform.io/terraform-aws-modules/vpc/aws","Version":"4.0.1","Dir":".terraform/modules/network"},{"Key":"wordpress_asg","Source":"registry.terraform.io/terraform-aws-modules/autoscaling/aws","Version":"6.9.0","Dir":".terraform/modules/wordpress_asg"}]}
