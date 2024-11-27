@@ -10,3 +10,9 @@ output "public_subnets" {
 output "private_subnets" {
   value = module.network.private_subnets
 }
+
+#--outputs.tf--
+
+output "wordpress_db_endpoint" {
+  value = aws_db_instance.wordpress.address
+}
